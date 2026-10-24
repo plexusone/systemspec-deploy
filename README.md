@@ -1,4 +1,4 @@
-# System Spec
+# SystemSpec: Deploy
 
 [![Go CI][go-ci-svg]][go-ci-url]
 [![Go Lint][go-lint-svg]][go-lint-url]
@@ -20,9 +20,9 @@
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/systemspec-deploy
  [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/systemspec-deploy
  [docs-mkdoc-svg]: https://img.shields.io/badge/Go-dev%20guide-blue.svg
- [docs-mkdoc-url]: https://plexusone.dev/system-spec
+ [docs-mkdoc-url]: https://plexusone.dev/systemspec-deploy
  [viz-svg]: https://img.shields.io/badge/Go-visualizaton-blue.svg
- [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=plexusone%2Fsystem-spec
+ [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=plexusone%2Fsystemspec-deploy
  [loc-svg]: https://tokei.rs/b1/github/plexusone/systemspec-deploy
  [repo-url]: https://github.com/plexusone/systemspec-deploy
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
@@ -153,12 +153,12 @@ The human-readable spec (`spec.md`) is for developers. The JSON Schema is for to
 
 1. **Go-first**: Go structs → JSON Schema (not the reverse)
 2. **No polymorphism**: `map[string]Service` not `map[string]interface{}`
-3. **Schema validation**: Must pass [schemalint](https://github.com/grokify/schemalint)
+3. **Schema validation**: Must pass [schemakit](https://github.com/grokify/schemakit)
 4. **Graph-native**: Built for visualization and dependency analysis
 
 ## Documentation
 
-- [Full Documentation](https://plexusone.github.io/system-spec/) (MkDocs)
+- [Full Documentation](https://plexusone.github.io/systemspec-deploy/) (MkDocs)
 - [Getting Started](docs/getting-started/quickstart.md)
 - [CLI Reference](docs/getting-started/cli.md)
 - [Go SDK](docs/sdk/usage.md)
@@ -167,7 +167,7 @@ The human-readable spec (`spec.md`) is for developers. The JSON Schema is for to
 ## Project Structure
 
 ```
-system-spec/
+systemspec-deploy/
 ├── spec/           # Core Go types (System, Service, etc.)
 ├── graph/          # Graph representation and conversion
 ├── render/         # Multi-format renderers

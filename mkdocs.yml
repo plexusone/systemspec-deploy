@@ -1,6 +1,6 @@
-site_name: System Spec
+site_name: "SystemSpec: Deploy"
 site_description: A Go-native system topology specification
-site_url: https://plexusone.github.io/system-spec
+site_url: https://plexusone.github.io/systemspec-deploy
 repo_url: https://github.com/plexusone/systemspec-deploy
 repo_name: plexusone/systemspec-deploy
 
@@ -61,12 +61,15 @@ nav:
     - Mermaid: rendering/mermaid.md
     - Cytoscape.js: rendering/cytoscape.md
     - Sigma.js: rendering/sigma.md
+  - Guides:
+    - Migrating from system-spec: guides/migrating-from-system-spec.md
   - Integration:
     - Graphize: integration/graphize.md
   - Examples:
     - Payments System: examples/payments.md
   - Releases:
     - Changelog: changelog.md
+    - v0.2.0: releases/v0.2.0.md
     - v0.1.0: releases/v0.1.0.md
 
 extra:

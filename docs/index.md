@@ -1,4 +1,4 @@
-# System Spec
+# SystemSpec: Deploy
 
 A Go-native system topology specification for modeling microservices, infrastructure, and connectivity.
 
