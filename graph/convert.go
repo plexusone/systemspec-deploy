@@ -3,7 +3,7 @@ package graph
 import (
 	"fmt"
 
-	"github.com/plexusone/system-spec/spec"
+	"github.com/plexusone/systemspec-deploy/spec"
 )
 
 // FromSystem converts a System spec to a Graph for rendering.

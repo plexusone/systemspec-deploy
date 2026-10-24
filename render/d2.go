@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/plexusone/system-spec/graph"
+	"github.com/plexusone/systemspec-deploy/graph"
 )
 
 // D2Renderer renders graphs to D2 diagram language.

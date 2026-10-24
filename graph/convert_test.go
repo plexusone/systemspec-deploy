@@ -3,7 +3,7 @@ package graph
 import (
 	"testing"
 
-	"github.com/plexusone/system-spec/spec"
+	"github.com/plexusone/systemspec-deploy/spec"
 )
 
 func TestFromSystem(t *testing.T) {

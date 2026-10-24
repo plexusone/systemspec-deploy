@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/plexusone/graphfs/pkg/graph"
-	"github.com/plexusone/system-spec/spec"
+	"github.com/plexusone/systemspec-deploy/spec"
 )
 
 // Node types for system-spec entities

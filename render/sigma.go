@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"math"
 
-	"github.com/plexusone/system-spec/graph"
+	"github.com/plexusone/systemspec-deploy/graph"
 )
 
 // SigmaRenderer renders graphs to Sigma.js JSON format.

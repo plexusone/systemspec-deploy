@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/plexusone/system-spec/graph"
-	"github.com/plexusone/system-spec/render"
-	"github.com/plexusone/system-spec/schema"
-	"github.com/plexusone/system-spec/spec"
+	"github.com/plexusone/systemspec-deploy/graph"
+	"github.com/plexusone/systemspec-deploy/render"
+	"github.com/plexusone/systemspec-deploy/schema"
+	"github.com/plexusone/systemspec-deploy/spec"
 )
 
 func main() {

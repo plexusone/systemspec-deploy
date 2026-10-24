@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/plexusone/system-spec/graph"
+	"github.com/plexusone/systemspec-deploy/graph"
 )
 
 // DOTRenderer renders graphs to GraphViz DOT format.

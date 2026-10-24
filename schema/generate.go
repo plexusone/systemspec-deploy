@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 
 	"github.com/invopop/jsonschema"
-	"github.com/plexusone/system-spec/spec"
+	"github.com/plexusone/systemspec-deploy/spec"
 )
 
 // Generate creates a JSON Schema from the System type.
@@ -16,7 +16,7 @@ func Generate() ([]byte, error) {
 	}
 
 	schema := r.Reflect(&spec.System{})
-	schema.ID = "https://github.com/plexusone/system-spec/schema/system"
+	schema.ID = "https://github.com/plexusone/systemspec-deploy/schema/system"
 	schema.Title = "System Specification"
 	schema.Description = "A system topology specification including services, infrastructure, and connectivity."
 

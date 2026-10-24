@@ -3,7 +3,7 @@ package render
 import (
 	"encoding/json"
 
-	"github.com/plexusone/system-spec/graph"
+	"github.com/plexusone/systemspec-deploy/graph"
 )
 
 // CytoscapeRenderer renders graphs to Cytoscape.js JSON format.

@@ -1,4 +1,4 @@
-module github.com/plexusone/system-spec
+module github.com/plexusone/systemspec-deploy
 
 go 1.24.0
 

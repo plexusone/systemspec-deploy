@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/plexusone/system-spec/graph"
+	"github.com/plexusone/systemspec-deploy/graph"
 )
 
 // MermaidRenderer renders graphs to Mermaid diagram syntax.

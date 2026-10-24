@@ -2,7 +2,7 @@
 package render
 
 import (
-	"github.com/plexusone/system-spec/graph"
+	"github.com/plexusone/systemspec-deploy/graph"
 )
 
 // Format identifies the output format.
