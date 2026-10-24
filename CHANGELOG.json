@@ -1,10 +1,30 @@
 {
   "irVersion": "1.0",
-  "project": "system-spec",
+  "project": "systemspec-deploy",
   "repository": "https://github.com/plexusone/systemspec-deploy",
   "versioning": "semver",
   "commitConvention": "conventional",
   "releases": [
+    {
+      "version": "v0.2.0",
+      "date": "2026-10-23",
+      "highlights": [
+        { "description": "**Breaking**: the Go module path is now `github.com/plexusone/systemspec-deploy`", "commit": "872e51d" },
+        { "description": "The project joins the SystemSpec family as its deployment topology specification; the document format, CLI and graphize provider are unchanged" }
+      ],
+      "breaking": [
+        { "description": "Import paths change from `github.com/plexusone/system-spec/...` to `github.com/plexusone/systemspec-deploy/...`", "commit": "872e51d" },
+        { "description": "The generated JSON Schema `$id` is now `https://github.com/plexusone/systemspec-deploy/schema/system`", "commit": "872e51d" }
+      ],
+      "dependencies": [
+        { "description": "Upgraded `github.com/invopop/jsonschema` from v0.13.0 to v0.14.0", "commit": "758c63d" }
+      ],
+      "documentation": [
+        { "description": "Updated README, MkDocs site and SDK guides for the new module path and repository", "commit": "cf38012" },
+        { "description": "Added a migration guide for moving from `github.com/plexusone/system-spec`" },
+        { "description": "Added v0.2.0 release notes" }
+      ]
+    },
     {
       "version": "v0.1.0",
       "date": "2026-04-15",
