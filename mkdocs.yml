@@ -1,8 +1,8 @@
 site_name: System Spec
 site_description: A Go-native system topology specification
 site_url: https://plexusone.github.io/system-spec
-repo_url: https://github.com/plexusone/system-spec
-repo_name: plexusone/system-spec
+repo_url: https://github.com/plexusone/systemspec-deploy
+repo_name: plexusone/systemspec-deploy
 
 theme:
   name: material
@@ -72,4 +72,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/plexusone/system-spec
+      link: https://github.com/plexusone/systemspec-deploy

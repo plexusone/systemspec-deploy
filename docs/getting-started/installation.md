@@ -5,7 +5,7 @@
 Install the `system-spec` CLI:
 
 ```bash
-go install github.com/plexusone/system-spec/cmd/system-spec@latest
+go install github.com/plexusone/systemspec-deploy/cmd/system-spec@latest
 ```
 
 Verify installation:
@@ -19,16 +19,16 @@ system-spec help
 Add to your Go module:
 
 ```bash
-go get github.com/plexusone/system-spec@latest
+go get github.com/plexusone/systemspec-deploy@latest
 ```
 
 Import packages:
 
 ```go
 import (
-    "github.com/plexusone/system-spec/spec"
-    "github.com/plexusone/system-spec/graph"
-    "github.com/plexusone/system-spec/render"
+    "github.com/plexusone/systemspec-deploy/spec"
+    "github.com/plexusone/systemspec-deploy/graph"
+    "github.com/plexusone/systemspec-deploy/render"
 )
 ```
 

@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-go get github.com/plexusone/system-spec@latest
+go get github.com/plexusone/systemspec-deploy@latest
 ```
 
 ## Packages
@@ -18,7 +18,7 @@ go get github.com/plexusone/system-spec@latest
 ## Loading a System Spec
 
 ```go
-import "github.com/plexusone/system-spec/spec"
+import "github.com/plexusone/systemspec-deploy/spec"
 
 // From file
 sys, err := spec.LoadFromFile("system.json")
@@ -66,7 +66,7 @@ jsonData, err := sys.ToJSON()
 ## Converting to Graph
 
 ```go
-import "github.com/plexusone/system-spec/graph"
+import "github.com/plexusone/systemspec-deploy/graph"
 
 // Convert system to graph
 g := graph.FromSystem(sys)
@@ -89,7 +89,7 @@ edgesTo := g.EdgesTo("rds:main-db")
 ## Rendering
 
 ```go
-import "github.com/plexusone/system-spec/render"
+import "github.com/plexusone/systemspec-deploy/render"
 
 // Create renderers
 renderers := render.NewRenderers()
@@ -111,7 +111,7 @@ output, err := r.Render(g)
 ## Generating JSON Schema
 
 ```go
-import "github.com/plexusone/system-spec/schema"
+import "github.com/plexusone/systemspec-deploy/schema"
 
 // Generate schema JSON
 schemaJSON, err := schema.Generate()

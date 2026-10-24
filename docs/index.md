@@ -81,12 +81,12 @@ system-spec render system.json --format sigma > system.json
 ## Installation
 
 ```bash
-go install github.com/plexusone/system-spec/cmd/system-spec@latest
+go install github.com/plexusone/systemspec-deploy/cmd/system-spec@latest
 ```
 
 ## Resources
 
 - [Specification v0.1.0](spec/v0.1.0.md) - Human-readable spec
-- [JSON Schema](https://github.com/plexusone/system-spec/blob/main/versions/v0.1.0/system.schema.json) - Machine-readable schema
+- [JSON Schema](https://github.com/plexusone/systemspec-deploy/blob/main/versions/v0.1.0/system.schema.json) - Machine-readable schema
 - [Go SDK](sdk/usage.md) - Go package documentation
 - [Examples](examples/payments.md) - Real-world examples

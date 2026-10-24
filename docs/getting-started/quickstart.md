@@ -86,9 +86,9 @@ import (
     "fmt"
     "log"
 
-    "github.com/plexusone/system-spec/spec"
-    "github.com/plexusone/system-spec/graph"
-    "github.com/plexusone/system-spec/render"
+    "github.com/plexusone/systemspec-deploy/spec"
+    "github.com/plexusone/systemspec-deploy/graph"
+    "github.com/plexusone/systemspec-deploy/render"
 )
 
 func main() {

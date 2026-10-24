@@ -1,7 +1,7 @@
 {
   "irVersion": "1.0",
   "project": "system-spec",
-  "repository": "https://github.com/plexusone/system-spec",
+  "repository": "https://github.com/plexusone/systemspec-deploy",
   "versioning": "semver",
   "commitConvention": "conventional",
   "releases": [
